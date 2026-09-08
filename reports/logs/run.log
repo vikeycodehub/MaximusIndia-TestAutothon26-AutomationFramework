@@ -1,0 +1,26 @@
+2026-09-08 21:49:07,051 | INFO     | framework.core.api_client | GET https://jsonplaceholder.typicode.com/posts/1
+2026-09-08 21:49:08,084 | INFO     | framework.core.base_page | Navigating to https://playwright.dev/
+2026-09-08 21:49:10,355 | INFO     | framework.core.base_page | Navigating to https://playwright.dev/
+2026-09-08 21:49:11,099 | INFO     | framework.core.base_page | Click: button.DocSearch-Button
+2026-09-08 21:50:33,341 | INFO     | framework.core.api_client | GET https://jsonplaceholder.typicode.com/posts/1
+2026-09-08 21:50:33,530 | INFO     | framework.core.api_client | POST https://jsonplaceholder.typicode.com/posts payload={'title': 'foo', 'body': 'bar', 'userId': 1}
+2026-09-08 21:50:34,193 | INFO     | framework.core.base_page | Navigating to https://playwright.dev/
+2026-09-08 21:50:34,924 | INFO     | framework.core.base_page | Click: button.DocSearch-Button
+2026-09-08 21:50:38,268 | INFO     | framework.core.base_page | Navigating to https://playwright.dev/
+2026-09-08 21:50:39,140 | INFO     | framework.core.base_page | Click: button.DocSearch-Button
+2026-09-08 21:50:40,797 | INFO     | framework.core.base_page | Navigating to https://playwright.dev/
+2026-09-08 21:50:41,566 | INFO     | framework.core.base_page | Click: button.DocSearch-Button
+2026-09-08 21:50:43,952 | INFO     | framework.core.base_page | Navigating to https://playwright.dev/
+2026-09-08 21:50:45,782 | INFO     | framework.core.base_page | Navigating to https://playwright.dev/
+2026-09-08 21:50:46,560 | INFO     | framework.core.base_page | Click: button.DocSearch-Button
+2026-09-08 22:01:55,379 | INFO     | framework.core.api_client | GET https://jsonplaceholder.typicode.com/posts/1
+2026-09-08 22:01:55,708 | INFO     | framework.core.api_client | POST https://jsonplaceholder.typicode.com/posts payload={'title': 'foo', 'body': 'bar', 'userId': 1}
+2026-09-08 22:01:56,763 | INFO     | framework.core.base_page | Navigating to https://playwright.dev/
+2026-09-08 22:01:58,025 | INFO     | framework.core.base_page | Click: button.DocSearch-Button
+2026-09-08 22:02:02,630 | INFO     | framework.core.base_page | Navigating to https://playwright.dev/
+2026-09-08 22:02:11,470 | INFO     | framework.core.base_page | Click: button.DocSearch-Button
+2026-09-08 22:02:22,799 | INFO     | framework.core.base_page | Navigating to https://playwright.dev/
+2026-09-08 22:02:23,610 | INFO     | framework.core.base_page | Click: button.DocSearch-Button
+2026-09-08 22:02:26,653 | INFO     | framework.core.base_page | Navigating to https://playwright.dev/
+2026-09-08 22:02:29,840 | INFO     | framework.core.base_page | Navigating to https://playwright.dev/
+2026-09-08 22:02:32,213 | INFO     | framework.core.base_page | Click: button.DocSearch-Button

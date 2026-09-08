@@ -1,0 +1,5 @@
+Requirement/User Story,Test Scenario,Test Case ID,Automated (Y/N),Priority,Status (Pass/Fail/Blocked),Linked Defect ID,Notes
+Login,Valid credentials log the user in,TC-001,Y,P1,,,
+Login,Invalid password shows error,TC-002,Y,P1,,,
+Search,Search returns relevant results,TC-003,Y,P2,,,
+Checkout,User can complete purchase with valid payment,TC-004,N,P1,,,

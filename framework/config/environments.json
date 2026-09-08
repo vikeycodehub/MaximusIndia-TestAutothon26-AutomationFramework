@@ -1,0 +1,14 @@
+{
+  "dev": {
+    "base_url": "https://playwright.dev",
+    "api_base_url": "https://jsonplaceholder.typicode.com"
+  },
+  "qa": {
+    "base_url": "https://playwright.dev",
+    "api_base_url": "https://jsonplaceholder.typicode.com"
+  },
+  "stage": {
+    "base_url": "https://playwright.dev",
+    "api_base_url": "https://jsonplaceholder.typicode.com"
+  }
+}

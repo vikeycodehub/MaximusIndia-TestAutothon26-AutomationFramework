@@ -1,0 +1,5 @@
+[
+  { "search_term": "assertions", "expect_contains": "Assertions" },
+  { "search_term": "locators", "expect_contains": "Locators" },
+  { "search_term": "fixtures", "expect_contains": "Fixtures" }
+]
