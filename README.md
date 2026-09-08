@@ -35,6 +35,26 @@ TestAutothon/
 └── .github/workflows/ci.yml     # CI: install, run smoke, upload reports
 ```
 
+## Live Demo Application: SauceDemo
+
+To prove the framework works against a real app (not just playwright.dev), a full
+suite was built against **[SauceDemo](https://www.saucedemo.com/)** - the
+industry-standard QA training e-commerce app, chosen because it has real
+login/browse/cart/checkout flows AND intentionally seeded bugs (great for
+practicing Bug Quest too). See `framework/tests/web/saucedemo/`:
+
+| File | Covers |
+|---|---|
+| `test_login.py` | Happy path + data-driven negative/edge cases (locked out, wrong password, empty fields) |
+| `test_checkout_flow.py` | Full critical E2E purchase flow + missing-info validation |
+| `test_sorting.py` | Price sort ascending/descending regression checks |
+| `test_bug_hunt_examples.py` | Demonstrates automated bug detection: `problem_user` has a real seeded image bug (caught via `xfail(strict=True)`), plus a locked-out-user safeguard check |
+
+Run just this suite: `pytest framework/tests/web/saucedemo -v`
+
+Use this as the reference pattern for tomorrow's real AUT - same Page Object /
+data-driven / tagging conventions throughout.
+
 ## Quick Start (tonight)
 
 ```powershell

@@ -1,0 +1,29 @@
+[
+  {
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "should_login": true,
+    "note": "Normal working user - baseline happy path"
+  },
+  {
+    "username": "locked_out_user",
+    "password": "secret_sauce",
+    "should_login": false,
+    "expected_error": "Sorry, this user has been locked out.",
+    "note": "Account locked - negative test"
+  },
+  {
+    "username": "standard_user",
+    "password": "wrong_password",
+    "should_login": false,
+    "expected_error": "Username and password do not match",
+    "note": "Wrong password - negative test"
+  },
+  {
+    "username": "",
+    "password": "",
+    "should_login": false,
+    "expected_error": "Username is required",
+    "note": "Empty credentials - boundary/validation test"
+  }
+]
