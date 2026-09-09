@@ -14,6 +14,7 @@ from playwright.sync_api import Page, expect
 
 from framework.config.settings import settings
 from framework.core.logger import get_logger
+from framework.ai.self_healing import smart_click as _ai_smart_click, smart_fill as _ai_smart_fill
 
 logger = get_logger(__name__)
 
@@ -30,7 +31,7 @@ class BasePage:
     def goto(self, path: str = "") -> None:
         url = path if path.startswith("http") else f"{settings.base_url}{path}"
         logger.info("Navigating to %s", url)
-        self.page.goto(url, timeout=self.timeout)
+        self.page.goto(url, wait_until="domcontentloaded", timeout=self.timeout)
 
     # ---------- actions ----------
     def click(self, selector: str) -> None:
@@ -43,6 +44,13 @@ class BasePage:
 
     def press(self, selector: str, key: str) -> None:
         self.page.locator(selector).press(key, timeout=self.timeout)
+
+    # ---------- AI-assisted actions (opt-in; falls back to plain click/fill) ----------
+    def smart_click(self, selector: str, description: str = "") -> None:
+        _ai_smart_click(self.page, selector, description or selector, timeout=self.timeout)
+
+    def smart_fill(self, selector: str, value: str, description: str = "") -> None:
+        _ai_smart_fill(self.page, selector, value, description or selector, timeout=self.timeout)
 
     # ---------- reads / assertions ----------
     def text_of(self, selector: str) -> str:

@@ -1,0 +1,61 @@
+Test Case ID,Area,Priority,Test Case,Automation Status,Source
+GJ-MAN-001,Authentication,P0,Login with valid mobile number and default OTP,FAIL,gajab_manual_test_cases.csv
+GJ-MAN-002,Authentication,P1,Reject invalid mobile number,MANUAL_REQUIRED,gajab_manual_test_cases.csv
+GJ-MAN-003,Authentication,P1,Reject empty mobile number,MANUAL_REQUIRED,gajab_manual_test_cases.csv
+GJ-MAN-004,Authentication,P1,Reject incorrect OTP,MANUAL_REQUIRED,gajab_manual_test_cases.csv
+GJ-MAN-005,Location,P0,Select a valid pincode,FAIL,gajab_manual_test_cases.csv
+GJ-MAN-006,Location,P1,Handle an invalid pincode,MANUAL_REQUIRED,gajab_manual_test_cases.csv
+GJ-MAN-007,Home,P1,Verify Deal of the Day content,NOT_RUN,gajab_manual_test_cases.csv
+GJ-MAN-008,Home,P1,Identify the most-bargained Trending product,NOT_RUN,gajab_manual_test_cases.csv
+GJ-MAN-009,Home,P1,Verify latest live order information,MANUAL_REQUIRED,gajab_manual_test_cases.csv
+GJ-MAN-010,Home,P1,Find the cheapest Just Bargained product,NOT_RUN,gajab_manual_test_cases.csv
+GJ-MAN-011,Category,P1,Open Toys & Games category,NOT_RUN,gajab_manual_test_cases.csv
+GJ-MAN-012,Filters,P1,Filter by SERA'S BASKET brand,NOT_RUN,gajab_manual_test_cases.csv
+GJ-MAN-013,Filters,P1,Filter products by price range,NOT_RUN,gajab_manual_test_cases.csv
+GJ-MAN-014,Product,P0,Locate the required dartboard product,NOT_RUN,gajab_manual_test_cases.csv
+GJ-MAN-015,Bargaining,P0,Start a product bargain,MANUAL_REQUIRED,gajab_manual_test_cases.csv
+GJ-MAN-016,Bargaining,P0,Complete three bargain attempts,MANUAL_REQUIRED,gajab_manual_test_cases.csv
+GJ-MAN-017,Bargaining,P0,Accept the seller offer,MANUAL_REQUIRED,gajab_manual_test_cases.csv
+GJ-MAN-018,Checkout,P0,Open Buy Now and select Pay Online,MANUAL_REQUIRED,gajab_manual_test_cases.csv
+GJ-MAN-019,Payment,P0,Complete demo netbanking payment,MANUAL_REQUIRED,gajab_manual_test_cases.csv
+GJ-MAN-020,Orders,P0,Verify order placement,MANUAL_REQUIRED,gajab_manual_test_cases.csv
+GJ-MAN-021,Orders,P1,Verify savings in My Bargains,MANUAL_REQUIRED,gajab_manual_test_cases.csv
+GJ-MAN-022,Language,P1,Run the critical flow in Hinglish,MANUAL_REQUIRED,gajab_manual_test_cases.csv
+GJ-MAN-023,Accessibility,P1,Keyboard navigation reaches critical controls,MANUAL_REQUIRED,gajab_manual_test_cases.csv
+GJ-MAN-024,Security,P0,Verify sensitive values are not exposed,MANUAL_REQUIRED,gajab_manual_test_cases.csv
+GJ-MAN-025,Cross Browser,P1,Run critical flow on supported browsers,MANUAL_REQUIRED,gajab_manual_test_cases.csv
+GJ-EXT-001,Home,P1,Verify Deal of the Day image opens the correct product,MANUAL_REQUIRED,gajab_extended_manual_test_cases.csv
+GJ-EXT-002,Home,P1,Email Deal of the Day details,MANUAL_REQUIRED,gajab_extended_manual_test_cases.csv
+GJ-EXT-003,Home,P2,Reject invalid email format,MANUAL_REQUIRED,gajab_extended_manual_test_cases.csv
+GJ-EXT-004,Home,P2,Prevent duplicate email submission,MANUAL_REQUIRED,gajab_extended_manual_test_cases.csv
+GJ-EXT-005,Home,P2,Verify live order refresh behavior,MANUAL_REQUIRED,gajab_extended_manual_test_cases.csv
+GJ-EXT-006,Navigation,P1,Search for an existing product,MANUAL_REQUIRED,gajab_extended_manual_test_cases.csv
+GJ-EXT-007,Navigation,P2,Search with no matching product,MANUAL_REQUIRED,gajab_extended_manual_test_cases.csv
+GJ-EXT-008,Navigation,P2,Open every primary category link,MANUAL_REQUIRED,gajab_extended_manual_test_cases.csv
+GJ-EXT-009,Category,P2,Open Toys subcategory,MANUAL_REQUIRED,gajab_extended_manual_test_cases.csv
+GJ-EXT-010,Filters,P2,Clear the active brand filter,MANUAL_REQUIRED,gajab_extended_manual_test_cases.csv
+GJ-EXT-011,Filters,P1,Verify price lower-bound inclusion,MANUAL_REQUIRED,gajab_extended_manual_test_cases.csv
+GJ-EXT-012,Filters,P1,Verify price upper-bound inclusion,MANUAL_REQUIRED,gajab_extended_manual_test_cases.csv
+GJ-EXT-013,Filters,P2,Reject inverted price range,MANUAL_REQUIRED,gajab_extended_manual_test_cases.csv
+GJ-EXT-014,Filters,P2,Verify filter persistence after refresh,MANUAL_REQUIRED,gajab_extended_manual_test_cases.csv
+GJ-EXT-015,Product,P1,Open product detail from filtered results,MANUAL_REQUIRED,gajab_extended_manual_test_cases.csv
+GJ-EXT-016,Product,P1,Verify listing and detail price consistency,MANUAL_REQUIRED,gajab_extended_manual_test_cases.csv
+GJ-EXT-017,Bargaining,P1,Reject offer outside allowed range,MANUAL_REQUIRED,gajab_extended_manual_test_cases.csv
+GJ-EXT-018,Bargaining,P1,Reject empty offer,MANUAL_REQUIRED,gajab_extended_manual_test_cases.csv
+GJ-EXT-019,Bargaining,P0,Prevent a fourth bargain attempt,MANUAL_REQUIRED,gajab_extended_manual_test_cases.csv
+GJ-EXT-020,Bargaining,P0,Verify bargain savings calculation,MANUAL_REQUIRED,gajab_extended_manual_test_cases.csv
+GJ-EXT-021,Checkout,P0,Verify checkout amount matches accepted price,MANUAL_REQUIRED,gajab_extended_manual_test_cases.csv
+GJ-EXT-022,Payment,P1,Return safely after payment failure,MANUAL_REQUIRED,gajab_extended_manual_test_cases.csv
+GJ-EXT-023,Payment,P0,Prevent duplicate payment submission,MANUAL_REQUIRED,gajab_extended_manual_test_cases.csv
+GJ-EXT-024,Orders,P1,Verify order details after refresh,MANUAL_REQUIRED,gajab_extended_manual_test_cases.csv
+GJ-EXT-025,Orders,P2,Verify My Bargains empty state,MANUAL_REQUIRED,gajab_extended_manual_test_cases.csv
+GJ-EXT-026,Language,P2,Switch from Hinglish back to English,MANUAL_REQUIRED,gajab_extended_manual_test_cases.csv
+GJ-EXT-027,Responsive,P1,Verify critical flow at mobile viewport,MANUAL_REQUIRED,gajab_extended_manual_test_cases.csv
+GJ-EXT-028,Responsive,P2,Verify critical flow at desktop viewport,MANUAL_REQUIRED,gajab_extended_manual_test_cases.csv
+GJ-EXT-029,Accessibility,P1,Verify form labels and errors,MANUAL_REQUIRED,gajab_extended_manual_test_cases.csv
+GJ-EXT-030,Accessibility,P2,Verify image alternative text,MANUAL_REQUIRED,gajab_extended_manual_test_cases.csv
+GJ-EXT-031,Performance,P2,Measure initial page load,MANUAL_REQUIRED,gajab_extended_manual_test_cases.csv
+GJ-EXT-032,Performance,P2,Measure product-list response,MANUAL_REQUIRED,gajab_extended_manual_test_cases.csv
+GJ-EXT-033,Visual,P2,Compare key page screenshots,MANUAL_REQUIRED,gajab_extended_manual_test_cases.csv
+GJ-EXT-034,Security,P0,Block unauthorized checkout access,MANUAL_REQUIRED,gajab_extended_manual_test_cases.csv
+GJ-EXT-035,Reporting,P1,Verify failure evidence is complete,MANUAL_REQUIRED,gajab_extended_manual_test_cases.csv
