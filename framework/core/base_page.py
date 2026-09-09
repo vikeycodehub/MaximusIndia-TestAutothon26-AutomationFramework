@@ -31,7 +31,7 @@ class BasePage:
     def goto(self, path: str = "") -> None:
         url = path if path.startswith("http") else f"{settings.base_url}{path}"
         logger.info("Navigating to %s", url)
-        self.page.goto(url, timeout=self.timeout)
+        self.page.goto(url, wait_until="domcontentloaded", timeout=self.timeout)
 
     # ---------- actions ----------
     def click(self, selector: str) -> None:

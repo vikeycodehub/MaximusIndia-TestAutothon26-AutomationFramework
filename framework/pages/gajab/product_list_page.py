@@ -4,9 +4,10 @@ from __future__ import annotations
 import re
 from dataclasses import dataclass
 
+from framework.config.settings import settings
 from framework.core.base_page import BasePage
 
-BASE_URL = "https://stg.gajab.com/"
+BASE_URL = settings.base_url
 
 
 @dataclass(frozen=True)

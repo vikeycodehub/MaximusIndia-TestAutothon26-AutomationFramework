@@ -8,9 +8,10 @@ DOM nodes sharing the same id for some header controls, so we always target
 """
 from __future__ import annotations
 
+from framework.config.settings import settings
 from framework.core.base_page import BasePage
 
-BASE_URL = "https://stg.gajab.com/"
+BASE_URL = settings.base_url
 DEFAULT_OTP = "123456"
 
 
@@ -27,24 +28,30 @@ class GajabLoginPage(BasePage):
         return self
 
     def go_to_signin(self) -> "GajabLoginPage":
-        self.page.locator(self.LOGIN_LINK).first.click(timeout=self.timeout)
+        # force=True: staging header keeps animating (rotating banner/placeholder text),
+        # so Playwright's "stable" actionability check never settles.
+        self.page.locator(self.LOGIN_LINK).first.click(timeout=self.timeout, force=True)
         return self
 
     def request_otp(self, mobile_number: str) -> "GajabLoginPage":
         self.page.locator(self.MOBILE_INPUT).fill(mobile_number, timeout=self.timeout)
-        self.page.locator(self.TERMS_CHECKBOX).check(timeout=self.timeout)
-        self.page.locator(self.REQUEST_OTP_BTN).click(timeout=self.timeout)
+        # Both controls are covered by an animated overlay layer, so coordinate-based
+        # clicks (even force=True) land on the wrong element; dispatching a raw DOM
+        # 'click' targets the exact node and reliably triggers React's handler.
+        self.page.locator(self.TERMS_CHECKBOX).dispatch_event("click")
+        self.page.locator(self.REQUEST_OTP_BTN).dispatch_event("click")
         return self
 
     def enter_otp(self, otp: str = DEFAULT_OTP) -> "GajabLoginPage":
         for index, digit in enumerate(otp):
             locator = self.page.locator(self.OTP_INPUT.format(index=index))
-            locator.click(timeout=self.timeout)
-            self.page.keyboard.type(digit)
+            # force=True: same overlay/stability issue as the header controls above.
+            locator.click(timeout=self.timeout, force=True)
+            self.page.keyboard.type(digit, delay=80)
         return self
 
     def submit_otp(self) -> "GajabLoginPage":
-        self.page.locator(self.OTP_SUBMIT_BTN).click(timeout=self.timeout)
+        self.page.locator(self.OTP_SUBMIT_BTN).dispatch_event("click")
         return self
 
     def login_with_mobile(self, mobile_number: str, otp: str = DEFAULT_OTP) -> None:

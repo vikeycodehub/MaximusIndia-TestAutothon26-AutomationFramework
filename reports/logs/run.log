@@ -288,3 +288,468 @@ TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
 2026-09-09 11:20:48,262 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
 2026-09-09 11:21:06,545 | INFO     | ai.reporter | AI RCA summary for 'test_automated_location_flow[chromium-GJ-MAN-005-pincode]': The most likely root cause of the timeout error is that the page at "https://stg.gajab.com/" is taking longer than the default timeout of 15 seconds to load, possibly due to network issues or server performance. To address this, increase the timeout value in the `goto` method or check the server's response time and network conditions during the test execution.
 2026-09-09 11:21:07,040 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 11:37:12,616 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 11:37:31,617 | INFO     | ai.reporter | AI RCA summary for 'test_automated_authentication_flow[chromium-GJ-MAN-001-login-otp]': The most likely root cause of the failure is a timeout error while attempting to navigate to the specified URL, indicating that the page did not load within the allotted 15 seconds. To address this, increase the timeout duration in the `goto` method or investigate the network conditions and server response times to ensure the page loads successfully.
+2026-09-09 11:37:34,107 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 11:37:54,549 | INFO     | ai.reporter | AI RCA summary for 'test_automated_authentication_flow[chromium-GJ-MAN-001-login-otp]': The most likely root cause of the failure is a timeout error while trying to navigate to the specified URL, indicating that the page did not load within the allotted 15 seconds. To address this, increase the timeout duration in the `goto` method or check the server's response time to ensure the page is accessible and loading properly.
+2026-09-09 11:37:55,088 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 11:38:12,807 | INFO     | ai.reporter | AI RCA summary for 'test_automated_location_flow[chromium-GJ-MAN-005-pincode]': The most likely root cause of the failure is a timeout error while attempting to navigate to the specified URL, indicating that the page did not load within the allotted time of 15 seconds. To address this, increase the timeout duration in the `goto` method or investigate the network conditions and server response times to ensure the page is accessible and loading as expected.
+2026-09-09 11:38:15,253 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 11:38:33,981 | INFO     | ai.reporter | AI RCA summary for 'test_automated_location_flow[chromium-GJ-MAN-005-pincode]': The most likely root cause of the timeout error is that the page at "https://stg.gajab.com/" is taking longer than the specified timeout of 15 seconds to load, possibly due to network issues or server performance. To diagnose further, increase the timeout duration in the `goto` method and check if the page loads successfully within the extended time.
+2026-09-09 11:38:34,472 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 11:38:52,615 | INFO     | ai.reporter | AI RCA summary for 'test_automated_dynamic_home_sections[chromium-GJ-MAN-007-deal]': The most likely root cause of the timeout error is that the page at "https://stg.gajab.com/" is taking longer than the specified timeout of 15 seconds to load, possibly due to network issues or server response delays. To diagnose further, increase the timeout duration in the `goto` method and check if the page loads successfully within the extended time frame.
+2026-09-09 11:38:55,010 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 11:39:12,741 | INFO     | ai.reporter | AI RCA summary for 'test_automated_dynamic_home_sections[chromium-GJ-MAN-007-deal]': The most likely root cause of the failure is a timeout while attempting to navigate to the specified URL, indicating that the page did not load within the allotted 15 seconds. To address this, increase the timeout duration in the `goto` method or investigate the server response time and network conditions to ensure the page loads successfully.
+2026-09-09 11:39:13,170 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 11:39:30,976 | INFO     | ai.reporter | AI RCA summary for 'test_automated_dynamic_home_sections[chromium-GJ-MAN-008-trending]': The most likely root cause of the timeout error is that the page at "https://stg.gajab.com/" is taking longer than the specified timeout of 15 seconds to load, possibly due to server issues or network latency. To diagnose further, increase the timeout duration in the `goto` method and check if the page loads successfully within the new limit, or investigate the server's response time and availability.
+2026-09-09 11:39:33,426 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 11:40:45,968 | INFO     | ai.reporter | AI RCA summary for 'test_automated_product_filter_flow[chromium]': The most likely root cause of the timeout error is that the element with the role "heading" and name "Toys & Games" is not present or not visible on the page within the specified timeout period. To diagnose further, check the page's HTML structure to confirm the presence of the heading element and consider increasing the timeout duration or adding a wait condition before attempting to locate the element.
+2026-09-09 11:41:14,176 | INFO     | ai.reporter | AI RCA summary for 'test_automated_product_filter_flow[chromium]': The most likely root cause of the failure is that the expected heading "Toys & Games" is not present or visible on the page within the specified timeout period. To diagnose further, check the page's HTML structure and ensure that the heading is correctly rendered and visible when the test is executed, possibly adding a longer timeout or logging the page content before the wait.
+2026-09-09 11:41:43,496 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 11:42:18,391 | INFO     | ai.reporter | AI RCA summary for 'test_automated_dynamic_home_sections[chromium-GJ-MAN-007-deal]': The most likely root cause of the failure is a timeout error while attempting to navigate to the specified URL, indicating that the page did not load within the allotted 30 seconds. To diagnose further, increase the timeout duration in the `goto` method or check the server response time and availability of the URL to ensure it is accessible.
+2026-09-09 11:42:21,197 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 11:44:47,718 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 11:45:22,515 | INFO     | ai.reporter | AI RCA summary for 'test_automated_dynamic_home_sections[chromium-GJ-MAN-007-deal]': The most likely root cause of the timeout error is that the page at "https://stg.gajab.com/" is taking longer than the default timeout of 30 seconds to load, possibly due to network issues or server response delays. To diagnose further, increase the timeout value in the `goto` method and check if the page loads successfully within the extended time frame.
+2026-09-09 11:45:25,244 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 11:45:59,026 | INFO     | ai.reporter | AI RCA summary for 'test_automated_dynamic_home_sections[chromium-GJ-MAN-007-deal]': The most likely root cause of the failure is that the page at "https://stg.gajab.com/" is taking longer than the default timeout of 30 seconds to load, resulting in a TimeoutError. To fix this, you can increase the timeout value in the `goto` method or check the server's response time to ensure it is functioning correctly.
+2026-09-09 11:45:59,623 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 11:46:53,526 | INFO     | ai.reporter | AI RCA summary for 'test_automated_dynamic_home_sections[chromium-GJ-MAN-008-trending]': The most likely root cause of the timeout error is that the page at "https://stg.gajab.com/" is taking longer than the default timeout of 30 seconds to load, possibly due to server issues or network latency. To diagnose further, increase the timeout in the `goto` method and check if the page eventually loads, or investigate the server's response time and availability.
+2026-09-09 11:46:57,479 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 11:50:21,195 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 11:50:55,762 | INFO     | ai.reporter | AI RCA summary for 'test_automated_dynamic_home_sections[chromium-GJ-MAN-007-deal]': The most likely root cause of the failure is a timeout error while trying to navigate to the specified URL, indicating that the page did not load within the allotted 30 seconds. To diagnose further, increase the timeout duration in the `goto` method and check if the page loads successfully, or investigate the server's response time and any potential network issues.
+2026-09-09 11:50:58,511 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 11:51:31,970 | INFO     | ai.reporter | AI RCA summary for 'test_automated_dynamic_home_sections[chromium-GJ-MAN-007-deal]': The most likely root cause of the timeout error is that the page at "https://stg.gajab.com/" is taking longer than the default timeout of 30 seconds to load, possibly due to network issues or server performance. To diagnose further, increase the timeout value in the `goto` method and check if the page loads successfully within the new limit, or investigate the server's response time and network conditions.
+2026-09-09 11:51:32,541 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 11:53:18,944 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 11:53:53,282 | INFO     | ai.reporter | AI RCA summary for 'test_automated_dynamic_home_sections[chromium-GJ-MAN-007-deal]': The most likely root cause of the failure is a timeout error while trying to navigate to the specified URL, indicating that the page did not load within the allotted time. To address this, increase the timeout duration in the `goto` method or investigate the network conditions and server response times for the URL being tested.
+2026-09-09 11:53:55,984 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 11:54:29,832 | INFO     | ai.reporter | AI RCA summary for 'test_automated_dynamic_home_sections[chromium-GJ-MAN-007-deal]': The most likely root cause of the failure is that the page at "https://stg.gajab.com/" is taking longer than the specified timeout of 30 seconds to load, resulting in a TimeoutError. To fix this, you can increase the timeout value in the `goto` method or investigate the server response time and any potential issues affecting page load speed.
+2026-09-09 11:54:30,389 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 11:55:07,684 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 11:55:42,563 | INFO     | ai.reporter | AI RCA summary for 'test_automated_dynamic_home_sections[chromium-GJ-MAN-007-deal]': The most likely root cause of the failure is a timeout while trying to navigate to the specified URL, indicating that the page may not be loading within the expected time frame. To diagnose further, check the network conditions and server response times for the URL "https://stg.gajab.com/" to ensure it is accessible and responsive.
+2026-09-09 11:55:45,317 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 11:56:29,613 | INFO     | ai.reporter | AI RCA summary for 'test_automated_dynamic_home_sections[chromium-GJ-MAN-007-deal]': The most likely root cause of the timeout error is that the page at "https://stg.gajab.com/" is taking longer than the default timeout of 30 seconds to load, possibly due to network issues or server performance. To diagnose further, increase the timeout value in the `goto` method and check if the page loads successfully within the extended time frame.
+2026-09-09 11:56:30,176 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 11:57:05,218 | INFO     | ai.reporter | AI RCA summary for 'test_automated_dynamic_home_sections[chromium-GJ-MAN-008-trending]': The most likely root cause of the timeout error is that the page at "https://stg.gajab.com/" is taking longer than the default timeout of 30 seconds to load, possibly due to network issues or server performance. To diagnose further, increase the timeout parameter in the `goto` method and check if the page loads successfully within the extended time frame.
+2026-09-09 11:57:07,788 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 11:57:40,511 | INFO     | ai.reporter | AI RCA summary for 'test_automated_dynamic_home_sections[chromium-GJ-MAN-008-trending]': The most likely root cause of the timeout error is that the page at "https://stg.gajab.com/" is either taking too long to load or is unresponsive, exceeding the default timeout of 30 seconds. To diagnose further, increase the timeout duration in the `goto` method or check the server's response time and stability for that URL.
+2026-09-09 11:57:41,006 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 12:13:24,366 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 12:17:22,054 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 12:17:47,121 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 12:24:52,091 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 12:25:28,129 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 12:25:44,924 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 12:29:45,412 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 12:46:54,982 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 12:46:58,460 | INFO     | framework.core.base_page | Navigating to https://www.saucedemo.com/
+2026-09-09 12:46:58,979 | INFO     | ai.self_healing | smart_fill: standard fill succeeded for selector '#user-name'.
+2026-09-09 12:46:59,041 | INFO     | ai.self_healing | smart_fill: standard fill succeeded for selector '#password'.
+2026-09-09 12:46:59,201 | INFO     | ai.self_healing | smart_click: standard click succeeded for selector '#login-button'.
+2026-09-09 12:49:36,811 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 12:49:39,855 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 12:49:40,889 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 12:49:43,913 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 12:49:45,025 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 12:49:48,171 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 12:49:52,866 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 12:49:55,796 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 12:49:56,715 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 12:49:59,411 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 12:50:00,391 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 12:50:03,303 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 12:50:04,265 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 12:50:07,201 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 12:50:08,193 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 12:50:11,136 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 12:50:18,821 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 12:59:34,521 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 13:01:20,865 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 13:06:38,364 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 13:06:44,780 | ERROR    | ai.reporter | Could not capture page.content() for AI RCA.
+Traceback (most recent call last):
+  File "D:\omkar hackathon\AbstractQA\framework\ai\ai_reporter.py", line 80, in attach_ai_rca
+    page_source = page.content()
+                  ^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 8898, in content
+    return mapping.from_maybe_impl(self._sync(self._impl_obj.content()))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\_impl\_page.py", line 536, in content
+    return await self._main_frame.content()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\_impl\_frame.py", line 416, in content
+    return await self._channel.send("content")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 520, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.content: Target page, context or browser has been closed
+2026-09-09 13:06:48,793 | INFO     | ai.reporter | AI RCA summary for 'test_login_with_default_otp[chromium]': The most likely root cause of the failure is that the button with the selector `#signin-submit-btn` is disabled at the time the test attempts to click it, leading to a timeout error. To fix this, ensure that the button is enabled before attempting to click it, or add a wait condition to check for the button's enabled state before the click action.
+2026-09-09 13:06:51,442 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 13:07:26,552 | ERROR    | ai.reporter | Could not capture page.content() for AI RCA.
+Traceback (most recent call last):
+  File "D:\omkar hackathon\AbstractQA\framework\ai\ai_reporter.py", line 80, in attach_ai_rca
+    page_source = page.content()
+                  ^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 8898, in content
+    return mapping.from_maybe_impl(self._sync(self._impl_obj.content()))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\_impl\_page.py", line 536, in content
+    return await self._main_frame.content()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\_impl\_frame.py", line 416, in content
+    return await self._channel.send("content")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 520, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.content: Target page, context or browser has been closed
+2026-09-09 13:07:29,963 | INFO     | ai.reporter | AI RCA summary for 'test_login_with_default_otp[chromium]': The most likely root cause of the failure is that the target page or browser context was closed before the test could interact with the OTP input field, leading to a `TargetClosedError`. To fix this, ensure that the page remains open and is fully loaded before attempting to click on the OTP input, possibly by adding explicit waits or checks for the element's visibility and actionability.
+2026-09-09 13:08:31,370 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 13:09:07,059 | ERROR    | ai.reporter | Could not capture page.content() for AI RCA.
+Traceback (most recent call last):
+  File "D:\omkar hackathon\AbstractQA\framework\ai\ai_reporter.py", line 80, in attach_ai_rca
+    page_source = page.content()
+                  ^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 8898, in content
+    return mapping.from_maybe_impl(self._sync(self._impl_obj.content()))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\_impl\_page.py", line 536, in content
+    return await self._main_frame.content()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\_impl\_frame.py", line 416, in content
+    return await self._channel.send("content")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 520, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.content: Target page, context or browser has been closed
+2026-09-09 13:09:09,972 | INFO     | ai.reporter | AI RCA summary for 'test_login_with_default_otp[chromium]': The most likely root cause of the failure is that the target page or browser context was closed before the `fill` method was called, resulting in a `TargetClosedError`. To fix this, ensure that the page remains open and is not navigated away or closed before the `login_with_mobile` method is executed, or add checks to confirm the page is still active before performing actions on it.
+2026-09-09 13:10:08,359 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 13:10:25,109 | ERROR    | ai.reporter | Could not capture page.content() for AI RCA.
+Traceback (most recent call last):
+  File "D:\omkar hackathon\AbstractQA\framework\ai\ai_reporter.py", line 80, in attach_ai_rca
+    page_source = page.content()
+                  ^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 8898, in content
+    return mapping.from_maybe_impl(self._sync(self._impl_obj.content()))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\_impl\_page.py", line 536, in content
+    return await self._main_frame.content()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\_impl\_frame.py", line 416, in content
+    return await self._channel.send("content")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 520, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.content: Target page, context or browser has been closed
+2026-09-09 13:10:27,415 | INFO     | ai.reporter | AI RCA summary for 'test_login_with_default_otp[chromium]': The most likely root cause of the failure is that the button with the selector `#signin-submit-btn` is disabled at the time the test attempts to click it, leading to a timeout error. To fix this, ensure that the button is enabled before attempting to click it, or add a wait condition to check for its enabled state before the click action.
+2026-09-09 13:10:30,653 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 13:11:18,367 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 13:14:22,363 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 13:15:01,948 | ERROR    | ai.reporter | Could not capture page.content() for AI RCA.
+Traceback (most recent call last):
+  File "D:\omkar hackathon\AbstractQA\framework\ai\ai_reporter.py", line 80, in attach_ai_rca
+    page_source = page.content()
+                  ^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 8898, in content
+    return mapping.from_maybe_impl(self._sync(self._impl_obj.content()))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\_impl\_page.py", line 536, in content
+    return await self._main_frame.content()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\_impl\_frame.py", line 416, in content
+    return await self._channel.send("content")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 520, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.content: Target page, context or browser has been closed
+2026-09-09 13:15:04,583 | INFO     | ai.reporter | AI RCA summary for 'test_login_with_default_otp[chromium]': The most likely root cause of the failure is that the target page or browser context was closed before the test could interact with the OTP input field. To fix this, ensure that the page remains open and is fully loaded before attempting to click on the OTP input, possibly by adding explicit waits or checks for the element's visibility and actionability.
+2026-09-09 13:15:40,129 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 13:16:34,527 | ERROR    | ai.reporter | Could not capture page.content() for AI RCA.
+Traceback (most recent call last):
+  File "D:\omkar hackathon\AbstractQA\framework\ai\ai_reporter.py", line 80, in attach_ai_rca
+    page_source = page.content()
+                  ^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 8898, in content
+    return mapping.from_maybe_impl(self._sync(self._impl_obj.content()))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\_impl\_page.py", line 536, in content
+    return await self._main_frame.content()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\_impl\_frame.py", line 416, in content
+    return await self._channel.send("content")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 520, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.content: Target page, context or browser has been closed
+2026-09-09 13:16:37,169 | INFO     | ai.reporter | AI RCA summary for 'test_login_with_default_otp[chromium]': The most likely root cause of the failure is that the target page has been closed before the test could interact with the OTP input field, leading to a `TargetClosedError`. To fix this, ensure that the page remains open and is fully loaded before attempting to click on the OTP input, possibly by adding explicit wait conditions or checking for the element's visibility before the click action.
+2026-09-09 13:17:13,366 | ERROR    | ai.reporter | Could not capture page.content() for AI RCA.
+Traceback (most recent call last):
+  File "D:\omkar hackathon\AbstractQA\framework\ai\ai_reporter.py", line 80, in attach_ai_rca
+    page_source = page.content()
+                  ^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 8898, in content
+    return mapping.from_maybe_impl(self._sync(self._impl_obj.content()))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\_impl\_page.py", line 536, in content
+    return await self._main_frame.content()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\_impl\_frame.py", line 416, in content
+    return await self._channel.send("content")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 520, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.content: Target page, context or browser has been closed
+2026-09-09 13:17:17,336 | INFO     | ai.reporter | AI RCA summary for 'test_login_with_default_otp[chromium]': The most likely root cause of the failure is that the OTP input field (`#otp-input-0`) is not present or not interactable on the page when the test attempts to click it, leading to a timeout error. To fix this, ensure that the OTP request is successfully completed and the input field is visible before attempting to click, possibly by adding an explicit wait or checking for the element's visibility.
+2026-09-09 13:17:21,143 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 13:45:02,104 | ERROR    | ai.reporter | Could not capture page.content() for AI RCA.
+Traceback (most recent call last):
+  File "D:\omkar hackathon\AbstractQA\framework\ai\ai_reporter.py", line 80, in attach_ai_rca
+    page_source = page.content()
+                  ^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 8898, in content
+    return mapping.from_maybe_impl(self._sync(self._impl_obj.content()))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\_impl\_page.py", line 536, in content
+    return await self._main_frame.content()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\_impl\_frame.py", line 416, in content
+    return await self._channel.send("content")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 520, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.content: Target page, context or browser has been closed
+2026-09-09 13:45:04,831 | INFO     | ai.reporter | AI RCA summary for 'test_login_with_default_otp[chromium]': The most likely root cause of the failure is that the OTP input field with the selector `#otp-input-0` is not present or not actionable within the specified timeout period, possibly due to a timing issue or the element being hidden. To fix this, consider adding an explicit wait for the element to be visible before attempting to click it, or increase the timeout duration to allow more time for the element to become actionable.
+2026-09-09 13:46:16,997 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 13:46:20,420 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 13:46:43,820 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 13:50:57,571 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 14:06:50,935 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 14:10:29,686 | ERROR    | ai.reporter | Could not capture page.content() for AI RCA.
+Traceback (most recent call last):
+  File "D:\omkar hackathon\AbstractQA\framework\ai\ai_reporter.py", line 80, in attach_ai_rca
+    page_source = page.content()
+                  ^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\sync_api\_generated.py", line 8898, in content
+    return mapping.from_maybe_impl(self._sync(self._impl_obj.content()))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_page.py", line 536, in content
+    return await self._main_frame.content()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_frame.py", line 416, in content
+    return await self._channel.send("content")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 520, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.content: Target page, context or browser has been closed
+2026-09-09 14:10:34,031 | INFO     | ai.reporter | AI RCA summary for 'test_gajab_login_with_default_otp[chromium]': The most likely root cause is that the OTP input field with the selector `#otp-input-0` is not present or not interactable within the specified timeout period, possibly due to a timing issue or the page not being fully loaded. To fix this, increase the timeout duration or implement a wait condition to ensure the OTP input field is visible and enabled before attempting to click it.
+2026-09-09 14:10:37,363 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 14:19:29,161 | INFO     | framework.core.api_client | GET https://jsonplaceholder.typicode.com/posts/1
+2026-09-09 14:19:29,666 | INFO     | framework.core.api_client | POST https://jsonplaceholder.typicode.com/posts payload={'title': 'foo', 'body': 'bar', 'userId': 1}
+2026-09-09 14:19:33,343 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com//
+2026-09-09 14:19:34,659 | INFO     | framework.core.base_page | Click: button.DocSearch-Button
+2026-09-09 14:22:12,017 | ERROR    | ai.reporter | Could not capture page.content() for AI RCA.
+Traceback (most recent call last):
+  File "D:\omkar hackathon\AbstractQA\framework\ai\ai_reporter.py", line 80, in attach_ai_rca
+    page_source = page.content()
+                  ^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\sync_api\_generated.py", line 8898, in content
+    return mapping.from_maybe_impl(self._sync(self._impl_obj.content()))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_page.py", line 536, in content
+    return await self._main_frame.content()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_frame.py", line 416, in content
+    return await self._channel.send("content")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 520, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.content: Target page, context or browser has been closed
+2026-09-09 14:22:14,517 | INFO     | ai.reporter | AI RCA summary for 'test_gajab_login_with_default_otp[chromium]': The most likely root cause is that the OTP input field identified by the locator "#otp-input-0" is not present or not interactable within the specified timeout period, possibly due to a delay in rendering or a prior step failing. To diagnose further, check the page state before the click action by adding a screenshot or logging the page HTML to confirm the presence and visibility of the OTP input field.
+2026-09-09 14:22:17,388 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 14:25:09,915 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 14:25:18,420 | ERROR    | ai.reporter | Could not capture page.content() for AI RCA.
+Traceback (most recent call last):
+  File "D:\omkar hackathon\AbstractQA\framework\ai\ai_reporter.py", line 80, in attach_ai_rca
+    page_source = page.content()
+                  ^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\sync_api\_generated.py", line 8898, in content
+    return mapping.from_maybe_impl(self._sync(self._impl_obj.content()))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_page.py", line 536, in content
+    return await self._main_frame.content()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_frame.py", line 416, in content
+    return await self._channel.send("content")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 520, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.content: Target page, context or browser has been closed
+2026-09-09 14:25:20,359 | INFO     | ai.reporter | AI RCA summary for 'test_gajab_pincode_selection_reflects_in_header[chromium]': The most likely root cause is that the locator for the pincode input field (`#location-desktop-search-input`) is not available or visible within the specified timeout period, possibly due to the page not being fully loaded or the element being hidden. To diagnose further, check if the element is present in the DOM at the time of the test execution by adding a wait or using a debugger to inspect the page state before the `fill` action.
+2026-09-09 14:25:22,972 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 14:34:40,066 | ERROR    | ai.reporter | Could not capture page.content() for AI RCA.
+Traceback (most recent call last):
+  File "D:\omkar hackathon\AbstractQA\framework\ai\ai_reporter.py", line 80, in attach_ai_rca
+    page_source = page.content()
+                  ^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\sync_api\_generated.py", line 8898, in content
+    return mapping.from_maybe_impl(self._sync(self._impl_obj.content()))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_page.py", line 536, in content
+    return await self._main_frame.content()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_frame.py", line 416, in content
+    return await self._channel.send("content")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 520, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.content: Target page, context or browser has been closed
+2026-09-09 14:34:42,894 | INFO     | ai.reporter | AI RCA summary for 'test_gajab_pincode_selection_reflects_in_header[chromium]': The most likely root cause is that the locator for the pincode input field (`#location-desktop-search-input`) is not available or visible within the specified timeout period, possibly due to the page not being fully loaded or the element being hidden. To diagnose further, check if the element is present in the DOM at the time of the test execution by adding a wait or a debug statement before the `fill` method to verify its visibility and state.
+2026-09-09 14:34:45,288 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 14:34:52,738 | INFO     | ai.reporter | AI RCA summary for 'test_gajab_home_dynamic_product_sections[chromium]': The most likely root cause of the failure is that the `asking_price` attribute of the `GajabProduct` instance is not being set correctly, resulting in it being `None` when the assertion is made. To diagnose further, check the logic that populates the `asking_price` attribute to ensure it is being assigned a valid value before the assertion is executed.
+2026-09-09 14:34:56,258 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 14:35:01,651 | INFO     | ai.reporter | AI RCA summary for 'test_gajab_home_dynamic_product_sections[chromium]': The most likely root cause of the failure is that the `asking_price` attribute of the `GajabProduct` instance is returning `None`, indicating that the product data may not be correctly populated or retrieved from the source. To diagnose this further, check the data source or API response to ensure that the `asking_price` is being set correctly and add logging to capture the state of the product data before the assertion.
+2026-09-09 14:35:20,020 | ERROR    | ai.reporter | Could not capture page.content() for AI RCA.
+Traceback (most recent call last):
+  File "D:\omkar hackathon\AbstractQA\framework\ai\ai_reporter.py", line 80, in attach_ai_rca
+    page_source = page.content()
+                  ^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\sync_api\_generated.py", line 8898, in content
+    return mapping.from_maybe_impl(self._sync(self._impl_obj.content()))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_page.py", line 536, in content
+    return await self._main_frame.content()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_frame.py", line 416, in content
+    return await self._channel.send("content")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 520, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.content: Target page, context or browser has been closed
+2026-09-09 14:35:21,610 | INFO     | ai.reporter | AI RCA summary for 'test_gajab_toys_games_filters_and_product[chromium]': The most likely root cause is that the target page or browser context was closed before the test could locate the "Toys & Games" heading, leading to a `TargetClosedError`. To fix this, ensure that the page remains open during the execution of the test, and consider adding checks to verify that the page is still active before attempting to interact with it.
+2026-09-09 14:36:32,430 | ERROR    | ai.reporter | Could not capture page.content() for AI RCA.
+Traceback (most recent call last):
+  File "D:\omkar hackathon\AbstractQA\framework\ai\ai_reporter.py", line 80, in attach_ai_rca
+    page_source = page.content()
+                  ^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\sync_api\_generated.py", line 8898, in content
+    return mapping.from_maybe_impl(self._sync(self._impl_obj.content()))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_page.py", line 536, in content
+    return await self._main_frame.content()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_frame.py", line 416, in content
+    return await self._channel.send("content")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 520, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.content: Target page, context or browser has been closed
+2026-09-09 14:36:34,613 | INFO     | ai.reporter | AI RCA summary for 'test_gajab_toys_games_filters_and_product[chromium]': The most likely root cause is that the "Toys & Games" heading is not present or visible on the page within the specified timeout, possibly due to a navigation issue or a change in the page structure. To diagnose further, check if the page loads correctly and contains the expected heading by adding a screenshot or logging the page content right before the wait_for call.
+2026-09-09 14:36:38,642 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 14:47:09,477 | ERROR    | ai.reporter | Could not capture page.content() for AI RCA.
+Traceback (most recent call last):
+  File "D:\omkar hackathon\AbstractQA\framework\ai\ai_reporter.py", line 80, in attach_ai_rca
+    page_source = page.content()
+                  ^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\sync_api\_generated.py", line 8898, in content
+    return mapping.from_maybe_impl(self._sync(self._impl_obj.content()))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_page.py", line 536, in content
+    return await self._main_frame.content()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_frame.py", line 416, in content
+    return await self._channel.send("content")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 520, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.content: Target page, context or browser has been closed
+2026-09-09 14:47:12,574 | INFO     | ai.reporter | AI RCA summary for 'test_gajab_login_with_default_otp[chromium]': The most likely root cause of the failure is that the OTP input field (`#otp-input-0`) is not present or not interactable on the page when the test attempts to click it, leading to a timeout error. To fix this, ensure that the OTP request is successfully completed and the input field is visible before attempting to enter the OTP, possibly by adding a wait condition or checking for the element's visibility.
+2026-09-09 14:49:13,283 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/

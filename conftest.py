@@ -10,6 +10,7 @@ Provides:
 from __future__ import annotations
 
 import os
+from datetime import datetime
 from pathlib import Path
 
 import allure
@@ -19,6 +20,7 @@ from framework.config.settings import settings as app_settings
 from framework.ai.ai_reporter import attach_ai_rca
 
 REPORTS_DIR = Path(__file__).parent / "reports"
+REPORTS_DIR.mkdir(parents=True, exist_ok=True)
 TRACE_DIR = REPORTS_DIR / "traces"
 VIDEO_DIR = REPORTS_DIR / "videos"
 SCREENSHOT_DIR = REPORTS_DIR / "screenshots"
@@ -36,6 +38,9 @@ def pytest_addoption(parser):
 
 
 def pytest_configure(config):
+    timestamp = datetime.now().strftime("%Y%m%d-%H%M%S")
+    config.option.htmlpath = str(REPORTS_DIR / f"pytest-report-{timestamp}.html")
+
     env_override = config.getoption("--env")
     if env_override:
         os.environ["TEST_ENV"] = env_override
@@ -55,7 +60,18 @@ def browser_context_args(browser_context_args):
         "viewport": {"width": 1440, "height": 900},
         "record_video_dir": str(VIDEO_DIR),
         "ignore_https_errors": True,
+        # Gajab requests browser geolocation on load; in headed mode Chromium shows a
+        # native OS permission popup that Playwright can't dismiss and that steals
+        # focus, freezing the test. Pre-granting it stops the popup from ever appearing.
+        "permissions": ["geolocation"],
+        "geolocation": {"latitude": 12.9716, "longitude": 77.5946},  # Bengaluru
     }
+
+
+@pytest.fixture(scope="session")
+def browser_type_launch_args(browser_type_launch_args):
+    """Keep presentation runs visible unless the CLI explicitly overrides it."""
+    return {**browser_type_launch_args, "headless": app_settings.headless}
 
 
 @pytest.fixture(autouse=True)

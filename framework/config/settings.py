@@ -10,12 +10,12 @@ import os
 from dataclasses import dataclass
 from pathlib import Path
 
-from dotenv import load_dotenv
-
-load_dotenv()
-
 CONFIG_DIR = Path(__file__).parent
 ENVIRONMENTS_FILE = CONFIG_DIR / "environments.json"
+
+from dotenv import load_dotenv
+
+load_dotenv(Path(__file__).resolve().parents[2] / ".env")
 
 
 @dataclass
@@ -40,7 +40,7 @@ def _str_to_bool(value: str) -> bool:
 
 
 def load_settings() -> Settings:
-    env = os.getenv("TEST_ENV", "dev").lower()
+    env = os.getenv("TEST_ENV", "stage").lower()
 
     with open(ENVIRONMENTS_FILE, "r", encoding="utf-8") as f:
         environments = json.load(f)
@@ -57,9 +57,9 @@ def load_settings() -> Settings:
         env=env,
         base_url=os.getenv("BASE_URL", env_cfg["base_url"]),
         api_base_url=os.getenv("API_BASE_URL", env_cfg["api_base_url"]),
-        headless=_str_to_bool(os.getenv("HEADLESS", "true")),
+        headless=_str_to_bool(os.getenv("HEADLESS", "false")),
         browser=os.getenv("BROWSER", "chromium"),
-        default_timeout_ms=int(os.getenv("DEFAULT_TIMEOUT_MS", "15000")),
+        default_timeout_ms=int(os.getenv("DEFAULT_TIMEOUT_MS", "60000")),
         appium_server_url=os.getenv("APPIUM_SERVER_URL", "http://127.0.0.1:4723"),
         android_app_package=os.getenv("ANDROID_APP_PACKAGE", "com.android.settings"),
         android_app_activity=os.getenv("ANDROID_APP_ACTIVITY", ".Settings"),
