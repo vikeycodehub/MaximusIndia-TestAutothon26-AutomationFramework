@@ -158,3 +158,133 @@
 2026-09-08 22:29:01,312 | INFO     | framework.core.base_page | Navigating to https://playwright.dev/
 2026-09-08 22:29:02,615 | INFO     | framework.core.base_page | Navigating to https://playwright.dev/
 2026-09-08 22:29:03,385 | INFO     | framework.core.base_page | Click: button.DocSearch-Button
+2026-09-09 10:20:34,682 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 10:20:52,446 | ERROR    | ai.llm_client | Failed to initialize LLM client for provider 'openai'.
+Traceback (most recent call last):
+  File "D:\omkar hackathon\AbstractQA\framework\ai\llm_client.py", line 62, in _build_client
+    return OpenAI(api_key=api_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\openai\_client.py", line 123, in __init__
+    super().__init__(
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\openai\_base_client.py", line 857, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\openai\_base_client.py", line 755, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+2026-09-09 10:20:55,628 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 10:21:13,481 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 10:21:34,227 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 10:22:16,113 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 10:22:35,679 | ERROR    | ai.llm_client | Failed to initialize LLM client for provider 'openai'.
+Traceback (most recent call last):
+  File "D:\omkar hackathon\AbstractQA\framework\ai\llm_client.py", line 62, in _build_client
+    return OpenAI(api_key=api_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\openai\_client.py", line 123, in __init__
+    super().__init__(
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\openai\_base_client.py", line 857, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\openai\_base_client.py", line 755, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+2026-09-09 10:22:39,582 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 10:37:25,334 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 10:37:42,290 | ERROR    | ai.llm_client | Failed to initialize LLM client for provider 'openai'.
+Traceback (most recent call last):
+  File "D:\omkar hackathon\AbstractQA\framework\ai\llm_client.py", line 62, in _build_client
+    return OpenAI(api_key=api_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\openai\_client.py", line 123, in __init__
+    super().__init__(
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\openai\_base_client.py", line 857, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\openai\_base_client.py", line 755, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+2026-09-09 10:37:44,836 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 10:41:36,697 | INFO     | framework.core.base_page | Navigating to https://playwright.dev/product-list/toys-games/17?offset=0
+2026-09-09 10:41:55,181 | ERROR    | ai.llm_client | Failed to initialize LLM client for provider 'openai'.
+Traceback (most recent call last):
+  File "D:\omkar hackathon\AbstractQA\framework\ai\llm_client.py", line 62, in _build_client
+    return OpenAI(api_key=api_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\openai\_client.py", line 123, in __init__
+    super().__init__(
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\openai\_base_client.py", line 857, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\openai\_base_client.py", line 755, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+2026-09-09 10:41:57,631 | INFO     | framework.core.base_page | Navigating to https://playwright.dev/product-list/toys-games/17?offset=0
+2026-09-09 10:42:21,373 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/product-list/toys-games/17?offset=0
+2026-09-09 10:42:38,819 | ERROR    | ai.llm_client | Failed to initialize LLM client for provider 'openai'.
+Traceback (most recent call last):
+  File "D:\omkar hackathon\AbstractQA\framework\ai\llm_client.py", line 62, in _build_client
+    return OpenAI(api_key=api_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\openai\_client.py", line 123, in __init__
+    super().__init__(
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\openai\_base_client.py", line 857, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\openai\_base_client.py", line 755, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+2026-09-09 10:42:41,381 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/product-list/toys-games/17?offset=0
+2026-09-09 10:43:02,553 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/product-list/toys-games/17?offset=0
+2026-09-09 10:43:20,062 | ERROR    | ai.llm_client | Failed to initialize LLM client for provider 'openai'.
+Traceback (most recent call last):
+  File "d:\omkar hackathon\AbstractQA\framework\ai\llm_client.py", line 62, in _build_client
+    return OpenAI(api_key=api_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\openai\_client.py", line 123, in __init__
+    super().__init__(
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\openai\_base_client.py", line 857, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\openai\_base_client.py", line 755, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+2026-09-09 10:43:22,646 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/product-list/toys-games/17?offset=0
+2026-09-09 10:44:43,973 | ERROR    | ai.llm_client | Failed to initialize LLM client for provider 'openai'.
+Traceback (most recent call last):
+  File "D:\omkar hackathon\AbstractQA\framework\ai\llm_client.py", line 62, in _build_client
+    return OpenAI(api_key=api_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\openai\_client.py", line 123, in __init__
+    super().__init__(
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\openai\_base_client.py", line 857, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\openai\_base_client.py", line 755, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+2026-09-09 11:14:24,285 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 11:14:43,460 | ERROR    | ai.llm_client | Failed to initialize LLM client for provider 'openai'.
+Traceback (most recent call last):
+  File "D:\omkar hackathon\AbstractQA\framework\ai\llm_client.py", line 62, in _build_client
+    return OpenAI(api_key=api_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\openai\_client.py", line 123, in __init__
+    super().__init__(
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\openai\_base_client.py", line 857, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\omkar hackathon\AbstractQA\.venv\Lib\site-packages\openai\_base_client.py", line 755, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+2026-09-09 11:14:45,947 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 11:15:02,744 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 11:19:45,662 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 11:20:05,822 | INFO     | ai.reporter | AI RCA summary for 'test_automated_authentication_flow[chromium-GJ-MAN-001-login-otp]': The most likely root cause of the timeout error is that the page at "https://stg.gajab.com/" is taking longer than the specified timeout of 15 seconds to load, possibly due to network issues or server performance. To diagnose further, increase the timeout duration in the `goto` method and check if the page loads successfully within the extended time.
+2026-09-09 11:20:08,405 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 11:20:27,018 | INFO     | ai.reporter | AI RCA summary for 'test_automated_authentication_flow[chromium-GJ-MAN-001-login-otp]': The most likely root cause of the timeout error is that the page at "https://stg.gajab.com/" is taking longer than the default timeout of 15 seconds to load, potentially due to network issues or server response delays. To diagnose further, increase the timeout parameter in the `page.goto()` method and check if the page loads successfully within the new timeout duration.
+2026-09-09 11:20:27,566 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 11:20:45,779 | INFO     | ai.reporter | AI RCA summary for 'test_automated_location_flow[chromium-GJ-MAN-005-pincode]': The most likely root cause of the failure is a timeout while attempting to navigate to the specified URL, indicating that the page did not load within the default timeout period of 15 seconds. To address this, consider increasing the timeout duration in the `goto` method or investigate the network conditions and server response times for the URL being tested.
+2026-09-09 11:20:48,262 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/
+2026-09-09 11:21:06,545 | INFO     | ai.reporter | AI RCA summary for 'test_automated_location_flow[chromium-GJ-MAN-005-pincode]': The most likely root cause of the timeout error is that the page at "https://stg.gajab.com/" is taking longer than the default timeout of 15 seconds to load, possibly due to network issues or server performance. To address this, increase the timeout value in the `goto` method or check the server's response time and network conditions during the test execution.
+2026-09-09 11:21:07,040 | INFO     | framework.core.base_page | Navigating to https://stg.gajab.com/

@@ -1,0 +1,482 @@
+[
+  {
+    "Test Case ID": "GJ-MAN-001",
+    "Area": "Authentication",
+    "Priority": "P0",
+    "Test Case": "Login with valid mobile number and default OTP",
+    "Automation Status": "FAIL",
+    "Source": "gajab_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-MAN-002",
+    "Area": "Authentication",
+    "Priority": "P1",
+    "Test Case": "Reject invalid mobile number",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-MAN-003",
+    "Area": "Authentication",
+    "Priority": "P1",
+    "Test Case": "Reject empty mobile number",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-MAN-004",
+    "Area": "Authentication",
+    "Priority": "P1",
+    "Test Case": "Reject incorrect OTP",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-MAN-005",
+    "Area": "Location",
+    "Priority": "P0",
+    "Test Case": "Select a valid pincode",
+    "Automation Status": "FAIL",
+    "Source": "gajab_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-MAN-006",
+    "Area": "Location",
+    "Priority": "P1",
+    "Test Case": "Handle an invalid pincode",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-MAN-007",
+    "Area": "Home",
+    "Priority": "P1",
+    "Test Case": "Verify Deal of the Day content",
+    "Automation Status": "NOT_RUN",
+    "Source": "gajab_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-MAN-008",
+    "Area": "Home",
+    "Priority": "P1",
+    "Test Case": "Identify the most-bargained Trending product",
+    "Automation Status": "NOT_RUN",
+    "Source": "gajab_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-MAN-009",
+    "Area": "Home",
+    "Priority": "P1",
+    "Test Case": "Verify latest live order information",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-MAN-010",
+    "Area": "Home",
+    "Priority": "P1",
+    "Test Case": "Find the cheapest Just Bargained product",
+    "Automation Status": "NOT_RUN",
+    "Source": "gajab_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-MAN-011",
+    "Area": "Category",
+    "Priority": "P1",
+    "Test Case": "Open Toys & Games category",
+    "Automation Status": "NOT_RUN",
+    "Source": "gajab_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-MAN-012",
+    "Area": "Filters",
+    "Priority": "P1",
+    "Test Case": "Filter by SERA'S BASKET brand",
+    "Automation Status": "NOT_RUN",
+    "Source": "gajab_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-MAN-013",
+    "Area": "Filters",
+    "Priority": "P1",
+    "Test Case": "Filter products by price range",
+    "Automation Status": "NOT_RUN",
+    "Source": "gajab_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-MAN-014",
+    "Area": "Product",
+    "Priority": "P0",
+    "Test Case": "Locate the required dartboard product",
+    "Automation Status": "NOT_RUN",
+    "Source": "gajab_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-MAN-015",
+    "Area": "Bargaining",
+    "Priority": "P0",
+    "Test Case": "Start a product bargain",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-MAN-016",
+    "Area": "Bargaining",
+    "Priority": "P0",
+    "Test Case": "Complete three bargain attempts",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-MAN-017",
+    "Area": "Bargaining",
+    "Priority": "P0",
+    "Test Case": "Accept the seller offer",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-MAN-018",
+    "Area": "Checkout",
+    "Priority": "P0",
+    "Test Case": "Open Buy Now and select Pay Online",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-MAN-019",
+    "Area": "Payment",
+    "Priority": "P0",
+    "Test Case": "Complete demo netbanking payment",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-MAN-020",
+    "Area": "Orders",
+    "Priority": "P0",
+    "Test Case": "Verify order placement",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-MAN-021",
+    "Area": "Orders",
+    "Priority": "P1",
+    "Test Case": "Verify savings in My Bargains",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-MAN-022",
+    "Area": "Language",
+    "Priority": "P1",
+    "Test Case": "Run the critical flow in Hinglish",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-MAN-023",
+    "Area": "Accessibility",
+    "Priority": "P1",
+    "Test Case": "Keyboard navigation reaches critical controls",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-MAN-024",
+    "Area": "Security",
+    "Priority": "P0",
+    "Test Case": "Verify sensitive values are not exposed",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-MAN-025",
+    "Area": "Cross Browser",
+    "Priority": "P1",
+    "Test Case": "Run critical flow on supported browsers",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-EXT-001",
+    "Area": "Home",
+    "Priority": "P1",
+    "Test Case": "Verify Deal of the Day image opens the correct product",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_extended_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-EXT-002",
+    "Area": "Home",
+    "Priority": "P1",
+    "Test Case": "Email Deal of the Day details",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_extended_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-EXT-003",
+    "Area": "Home",
+    "Priority": "P2",
+    "Test Case": "Reject invalid email format",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_extended_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-EXT-004",
+    "Area": "Home",
+    "Priority": "P2",
+    "Test Case": "Prevent duplicate email submission",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_extended_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-EXT-005",
+    "Area": "Home",
+    "Priority": "P2",
+    "Test Case": "Verify live order refresh behavior",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_extended_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-EXT-006",
+    "Area": "Navigation",
+    "Priority": "P1",
+    "Test Case": "Search for an existing product",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_extended_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-EXT-007",
+    "Area": "Navigation",
+    "Priority": "P2",
+    "Test Case": "Search with no matching product",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_extended_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-EXT-008",
+    "Area": "Navigation",
+    "Priority": "P2",
+    "Test Case": "Open every primary category link",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_extended_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-EXT-009",
+    "Area": "Category",
+    "Priority": "P2",
+    "Test Case": "Open Toys subcategory",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_extended_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-EXT-010",
+    "Area": "Filters",
+    "Priority": "P2",
+    "Test Case": "Clear the active brand filter",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_extended_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-EXT-011",
+    "Area": "Filters",
+    "Priority": "P1",
+    "Test Case": "Verify price lower-bound inclusion",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_extended_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-EXT-012",
+    "Area": "Filters",
+    "Priority": "P1",
+    "Test Case": "Verify price upper-bound inclusion",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_extended_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-EXT-013",
+    "Area": "Filters",
+    "Priority": "P2",
+    "Test Case": "Reject inverted price range",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_extended_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-EXT-014",
+    "Area": "Filters",
+    "Priority": "P2",
+    "Test Case": "Verify filter persistence after refresh",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_extended_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-EXT-015",
+    "Area": "Product",
+    "Priority": "P1",
+    "Test Case": "Open product detail from filtered results",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_extended_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-EXT-016",
+    "Area": "Product",
+    "Priority": "P1",
+    "Test Case": "Verify listing and detail price consistency",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_extended_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-EXT-017",
+    "Area": "Bargaining",
+    "Priority": "P1",
+    "Test Case": "Reject offer outside allowed range",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_extended_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-EXT-018",
+    "Area": "Bargaining",
+    "Priority": "P1",
+    "Test Case": "Reject empty offer",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_extended_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-EXT-019",
+    "Area": "Bargaining",
+    "Priority": "P0",
+    "Test Case": "Prevent a fourth bargain attempt",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_extended_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-EXT-020",
+    "Area": "Bargaining",
+    "Priority": "P0",
+    "Test Case": "Verify bargain savings calculation",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_extended_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-EXT-021",
+    "Area": "Checkout",
+    "Priority": "P0",
+    "Test Case": "Verify checkout amount matches accepted price",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_extended_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-EXT-022",
+    "Area": "Payment",
+    "Priority": "P1",
+    "Test Case": "Return safely after payment failure",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_extended_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-EXT-023",
+    "Area": "Payment",
+    "Priority": "P0",
+    "Test Case": "Prevent duplicate payment submission",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_extended_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-EXT-024",
+    "Area": "Orders",
+    "Priority": "P1",
+    "Test Case": "Verify order details after refresh",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_extended_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-EXT-025",
+    "Area": "Orders",
+    "Priority": "P2",
+    "Test Case": "Verify My Bargains empty state",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_extended_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-EXT-026",
+    "Area": "Language",
+    "Priority": "P2",
+    "Test Case": "Switch from Hinglish back to English",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_extended_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-EXT-027",
+    "Area": "Responsive",
+    "Priority": "P1",
+    "Test Case": "Verify critical flow at mobile viewport",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_extended_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-EXT-028",
+    "Area": "Responsive",
+    "Priority": "P2",
+    "Test Case": "Verify critical flow at desktop viewport",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_extended_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-EXT-029",
+    "Area": "Accessibility",
+    "Priority": "P1",
+    "Test Case": "Verify form labels and errors",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_extended_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-EXT-030",
+    "Area": "Accessibility",
+    "Priority": "P2",
+    "Test Case": "Verify image alternative text",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_extended_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-EXT-031",
+    "Area": "Performance",
+    "Priority": "P2",
+    "Test Case": "Measure initial page load",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_extended_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-EXT-032",
+    "Area": "Performance",
+    "Priority": "P2",
+    "Test Case": "Measure product-list response",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_extended_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-EXT-033",
+    "Area": "Visual",
+    "Priority": "P2",
+    "Test Case": "Compare key page screenshots",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_extended_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-EXT-034",
+    "Area": "Security",
+    "Priority": "P0",
+    "Test Case": "Block unauthorized checkout access",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_extended_manual_test_cases.csv"
+  },
+  {
+    "Test Case ID": "GJ-EXT-035",
+    "Area": "Reporting",
+    "Priority": "P1",
+    "Test Case": "Verify failure evidence is complete",
+    "Automation Status": "MANUAL_REQUIRED",
+    "Source": "gajab_extended_manual_test_cases.csv"
+  }
+]

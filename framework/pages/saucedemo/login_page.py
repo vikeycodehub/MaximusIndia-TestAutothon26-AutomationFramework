@@ -25,9 +25,9 @@ class LoginPage(BasePage):
         return self
 
     def login(self, username: str, password: str) -> None:
-        self.fill(self.USERNAME_INPUT, username)
-        self.fill(self.PASSWORD_INPUT, password)
-        self.click(self.LOGIN_BUTTON)
+        self.smart_fill(self.USERNAME_INPUT, username, "the username input field")
+        self.smart_fill(self.PASSWORD_INPUT, password, "the password input field")
+        self.smart_click(self.LOGIN_BUTTON, "the green Login submit button")
 
     def error_text(self) -> str:
         return self.text_of(self.ERROR_MESSAGE)

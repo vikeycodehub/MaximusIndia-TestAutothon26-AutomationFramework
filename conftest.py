@@ -16,6 +16,7 @@ import allure
 import pytest
 
 from framework.config.settings import settings as app_settings
+from framework.ai.ai_reporter import attach_ai_rca
 
 REPORTS_DIR = Path(__file__).parent / "reports"
 TRACE_DIR = REPORTS_DIR / "traces"
@@ -92,5 +93,12 @@ def pytest_runtest_makereport(item, call):
                 allure.attach(
                     page.content(), name="page-html", attachment_type=allure.attachment_type.HTML
                 )
+            except Exception:  # noqa: BLE001 - never fail the test because of reporting
+                pass
+
+        summary = attach_ai_rca(item, rep, page=page)
+        if summary:
+            try:
+                allure.attach(summary, name="ai-root-cause-analysis", attachment_type=allure.attachment_type.TEXT)
             except Exception:  # noqa: BLE001 - never fail the test because of reporting
                 pass
